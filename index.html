@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Design</title>
+</head>
+<body>
+    <div>
+        <h1>ABC Design Program Installation Contract</h1>
+    </div>
+    <div id="form-body">
+        <form action="result.html" method="get">
+            <fieldset>
+                <legend>Contract confirmation</legend>
+                <input type="checkbox" name="confirmed" id="approval" value="yes">
+                <label for="approval">I accept the accuracy of the Information below and I confirm the agreement.</label>
+                <br>
+                <input type="submit" value="Save the form">
+                <input type="reset" value="Clean the form">
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="security">Form Security ID: </label>
+                <input type="text" name="Security-id" id="security" placeholder="asdfgh">
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" id="surname">
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" name="age"ge id="age" min="18" max="65">
+                <br>
+                <label for="mail">Mail:</label>
+                <input type="mail" name="mail" id="mail" placeholder="xxxxx@gmail.com">
+                <br>
+                <label for="photo">Add your photo: </label>
+                <input type="file" name="photo" id="photo">
+            </fieldset>
+            <fieldset>
+                <legend>Other Information</legend>
+                <p><b> This is about your professional experience</b></p>
+                <label for="entry-date">Industry entry date: </label>
+                <input type="date" name="entry-date" id="entry-date">
+                <br>
+                <label for="experience">industry experience:</label>
+                <div id="experience">
+                    <input type="radio" name="experience" id="efirst" value="1-5 years">
+                    <label for="efirst">1-5 year</label>
+                    <br>
+                    <input type="radio" name="experience" id="esecond" value="6-10 years">
+                    <label for="esecond">6-10 year</label>
+                    <br>
+                    <input type="radio" name="experience" id="ethird" value="11-15 years">
+                    <label for="ethird">11-15 year</label>
+                    <br>
+                    <input type="radio" name="experience" id="eforth" value="over-15">
+                    <label for="eforth">15-over</label>
+                </div>
+                <label for="p-language">Programming languages</label>
+                <select name="" id="p-languages" size="5">
+                    <option value="">C#</option>
+                    <option value="">PHP</option>
+                    <option value="">JAVASCRIPT</option>
+                    <option value="">JAVA</option>
+                    <option value="">PYHTON</option>
+                    <option value="">C++</option>
+                  </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Contract Copy</legend>
+                <textarea name="" id="" cols="50" rows="7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nulla est nemo alias distinctio quae voluptate perspiciatis praesentium dolorum nam nisi tenetur delectus, labore, cumque commodi autem similique possimus accusamus aliquam, provident necessitatibus? Omnis sapiente nihil unde sint laboriosam et animi, iure consequatur debitis obcaecati quaerat nobis recusandae neque error ab nostrum eum odio placeat vero? Veritatis ratione fuga nobis autem soluta explicabo expedita amet corrupti consectetur laboriosam libero recusandae, ab itaque voluptate alias at debitis fugiat dignissimos! Quidem, a nihil magnam aut voluptates recusandae ipsa facere sapiente voluptatem tenetur odit dolorum neque architecto maxime quis autem cum quia officiis.
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Mail List</legend>
+                <label for="m-agree"> <b>I want</b> to join the mail list</label>
+                <input type="radio" name="mail-list" id="m-agree" value="agree" checked>
+                <br>
+                <label for="m-disagree"> <b>I don't want</b> to join the mail list</label>
+                <input type="radio" name="mail-list" id="m-disagree" value="disagree">
+            </fieldset>
+
+
+        </form>
+    </div>
+
+</body>
+</html>
